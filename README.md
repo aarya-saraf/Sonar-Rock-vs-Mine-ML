@@ -43,14 +43,14 @@ Data Collection → Data Processing → Train-Test Split → Model Training → 
 - Training Accuracy: **83.42%**
 - Testing Accuracy: **76.19%**
 
-📌 Key Learnings
+## 📌 Key Learnings
 - Understanding ML workflow
 - Data preprocessing using Pandas
 - Train-test splitting
 - Logistic Regression implementation
 - Model evaluation using accuracy score
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 - Add more ML models (KNN, SVM)
 - Hyperparameter tuning
 - Data visualization
