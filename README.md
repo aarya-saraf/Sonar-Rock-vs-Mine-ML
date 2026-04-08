@@ -43,6 +43,47 @@ Data Collection → Data Processing → Train-Test Split → Model Training → 
 - Training Accuracy: **83.42%**
 - Testing Accuracy: **76.19%**
 
+## 🧪 How to Run the Project
+
+Follow these steps to run the project on your local machine:
+
+### 1️⃣ Install Python and Libraries
+Make sure Python is installed (3.8+ recommended).  
+Install required libraries:
+
+```bash
+pip install -r requirements.txt
+
+### 2️⃣ Open the Project Notebook
+
+You can run the project using Jupyter Notebook or Google Colab.
+
+Option 1: Jupyter Notebook (Local)
+
+jupyter notebook
+
+In the browser, open the file: sonar_model.ipynb
+Run all cells.
+
+Option 2: Google Colab (Online)
+
+Go to https://colab.research.google.com
+Upload sonar_model.ipynb
+Run all cells in the browser.
+
+### 3️⃣ Test the Predictive System
+The notebook includes a section for inputting sonar signals:
+input_data = (0.0307, 0.0523, 0.0653, …)
+prediction = model.predict(input_data_reshaped)
+print(prediction)
+Output: Rock (R) or Mine (M)
+
+### 4️⃣ Key Outputs
+Training Accuracy: 83.42%
+Testing Accuracy: 76.19%
+Sample Prediction: Model predicts if a given sonar signal is a Rock or Mine.
+
+
 ## 📌 Key Learnings
 - Understanding ML workflow
 - Data preprocessing using Pandas
